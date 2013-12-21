@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C535A96185C588000B92C82"
                BuildableName = "SoundBox.app"
-               BlueprintName = "SoundBox"
-               ReferencedContainer = "container:SoundBox.xcodeproj">
+               BlueprintName = "Sound Cube"
+               ReferencedContainer = "container:Sound Cube.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5C535AB7185C588100B92C82"
                BuildableName = "SoundBoxTests.xctest"
-               BlueprintName = "SoundBoxTests"
-               ReferencedContainer = "container:SoundBox.xcodeproj">
+               BlueprintName = "Sound CubeTests"
+               ReferencedContainer = "container:Sound Cube.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C535A96185C588000B92C82"
             BuildableName = "SoundBox.app"
-            BlueprintName = "SoundBox"
-            ReferencedContainer = "container:SoundBox.xcodeproj">
+            BlueprintName = "Sound Cube"
+            ReferencedContainer = "container:Sound Cube.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C535A96185C588000B92C82"
             BuildableName = "SoundBox.app"
-            BlueprintName = "SoundBox"
-            ReferencedContainer = "container:SoundBox.xcodeproj">
+            BlueprintName = "Sound Cube"
+            ReferencedContainer = "container:Sound Cube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5C535A96185C588000B92C82"
             BuildableName = "SoundBox.app"
-            BlueprintName = "SoundBox"
-            ReferencedContainer = "container:SoundBox.xcodeproj">
+            BlueprintName = "Sound Cube"
+            ReferencedContainer = "container:Sound Cube.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

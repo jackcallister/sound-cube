@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C4B0F37185EC60B00610BFF /* applause@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F35185EC60B00610BFF /* applause@2x.png */; };
+		5C4B0F38185EC60B00610BFF /* applause.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F36185EC60B00610BFF /* applause.png */; };
+		5C4B0F3D185EF10E00610BFF /* scream@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F3B185EF10E00610BFF /* scream@2x.png */; };
+		5C4B0F3E185EF10E00610BFF /* scream.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F3C185EF10E00610BFF /* scream.png */; };
+		5C4B0F40185EF13100610BFF /* scream.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F3F185EF13100610BFF /* scream.wav */; };
+		5C4B0F43185EF5F200610BFF /* chicken@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F41185EF5F200610BFF /* chicken@2x.png */; };
+		5C4B0F44185EF5F200610BFF /* chicken.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F42185EF5F200610BFF /* chicken.png */; };
+		5C4B0F46185EF64B00610BFF /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4B0F45185EF64B00610BFF /* chicken.wav */; };
+		5C4F3F0118618BF300D04DF6 /* toilet.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F3F0018618BF300D04DF6 /* toilet.wav */; };
+		5C4F3F0418618C9900D04DF6 /* toilet@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F3F0218618C9900D04DF6 /* toilet@2x.png */; };
+		5C4F3F0518618C9900D04DF6 /* toilet.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C4F3F0318618C9900D04DF6 /* toilet.png */; };
 		5C535A9B185C588000B92C82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C535A9A185C588000B92C82 /* Foundation.framework */; };
 		5C535A9D185C588000B92C82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C535A9C185C588000B92C82 /* CoreGraphics.framework */; };
 		5C535A9F185C588000B92C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C535A9E185C588000B92C82 /* UIKit.framework */; };
@@ -21,6 +32,17 @@
 		5C535ABC185C588100B92C82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C535A9E185C588000B92C82 /* UIKit.framework */; };
 		5C535AC4185C588100B92C82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C535AC2185C588100B92C82 /* InfoPlist.strings */; };
 		5C535AC6185C588100B92C82 /* SoundBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C535AC5185C588100B92C82 /* SoundBoxTests.m */; };
+		5C535AD0185D59AA00B92C82 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C535ACF185D59AA00B92C82 /* AVFoundation.framework */; };
+		5C5833DB1860185A0066AE3F /* droid.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5833D91860185A0066AE3F /* droid.png */; };
+		5C5833DC1860185A0066AE3F /* droid@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C5833DA1860185A0066AE3F /* droid@2x.png */; };
+		5C5833DE186018620066AE3F /* droid.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C5833DD186018620066AE3F /* droid.wav */; };
+		5C5833E218601A460066AE3F /* applause.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5C5833E118601A460066AE3F /* applause.wav */; };
+		5CF6A3C7186170BC00931E7D /* mobile.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3C5186170BC00931E7D /* mobile.wav */; };
+		5CF6A3CC186170C500931E7D /* mobile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3C8186170C500931E7D /* mobile@2x.png */; };
+		5CF6A3CD186170C500931E7D /* mobile.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3C9186170C500931E7D /* mobile.png */; };
+		5CF6A3CE186170C500931E7D /* knock.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3CA186170C500931E7D /* knock.png */; };
+		5CF6A3CF186170C500931E7D /* knock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3CB186170C500931E7D /* knock@2x.png */; };
+		5CF6A3D1186183A800931E7D /* knock.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5CF6A3D0186183A800931E7D /* knock.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,25 +56,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5C535A97185C588000B92C82 /* SoundBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C4B0F35185EC60B00610BFF /* applause@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "applause@2x.png"; sourceTree = "<group>"; };
+		5C4B0F36185EC60B00610BFF /* applause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = applause.png; sourceTree = "<group>"; };
+		5C4B0F3B185EF10E00610BFF /* scream@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "scream@2x.png"; sourceTree = "<group>"; };
+		5C4B0F3C185EF10E00610BFF /* scream.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scream.png; sourceTree = "<group>"; };
+		5C4B0F3F185EF13100610BFF /* scream.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = scream.wav; sourceTree = "<group>"; };
+		5C4B0F41185EF5F200610BFF /* chicken@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chicken@2x.png"; sourceTree = "<group>"; };
+		5C4B0F42185EF5F200610BFF /* chicken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chicken.png; sourceTree = "<group>"; };
+		5C4B0F45185EF64B00610BFF /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chicken.wav; sourceTree = "<group>"; };
+		5C4F3F0018618BF300D04DF6 /* toilet.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = toilet.wav; sourceTree = "<group>"; };
+		5C4F3F0218618C9900D04DF6 /* toilet@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "toilet@2x.png"; sourceTree = "<group>"; };
+		5C4F3F0318618C9900D04DF6 /* toilet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toilet.png; sourceTree = "<group>"; };
+		5C535A97185C588000B92C82 /* Sound Cube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sound Cube.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C535A9A185C588000B92C82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5C535A9C185C588000B92C82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5C535A9E185C588000B92C82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C535AA2185C588000B92C82 /* SoundBox-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBox-Info.plist"; sourceTree = "<group>"; };
 		5C535AA4185C588000B92C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C535AA6185C588000B92C82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5C535AA8185C588000B92C82 /* SoundBox-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundBox-Prefix.pch"; sourceTree = "<group>"; };
+		5C535AA8185C588000B92C82 /* Sound Cube-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Sound Cube-Prefix.pch"; sourceTree = "<group>"; };
 		5C535AA9185C588000B92C82 /* SBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBAppDelegate.h; sourceTree = "<group>"; };
 		5C535AAA185C588000B92C82 /* SBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBAppDelegate.m; sourceTree = "<group>"; };
 		5C535AAD185C588000B92C82 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5C535AAF185C588000B92C82 /* SBViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBViewController.h; sourceTree = "<group>"; };
 		5C535AB0185C588000B92C82 /* SBViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBViewController.m; sourceTree = "<group>"; };
 		5C535AB2185C588000B92C82 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5C535AB8185C588100B92C82 /* SoundBoxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundBoxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C535AB8185C588100B92C82 /* Sound CubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sound CubeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C535AB9185C588100B92C82 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5C535AC1185C588100B92C82 /* SoundBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundBoxTests-Info.plist"; sourceTree = "<group>"; };
+		5C535AC1185C588100B92C82 /* Sound CubeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Sound CubeTests-Info.plist"; sourceTree = "<group>"; };
 		5C535AC3185C588100B92C82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5C535AC5185C588100B92C82 /* SoundBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundBoxTests.m; sourceTree = "<group>"; };
+		5C535ACF185D59AA00B92C82 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5C535AD7185D6D0200B92C82 /* helsinki.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = helsinki.ttf; sourceTree = "<group>"; };
+		5C5833D91860185A0066AE3F /* droid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = droid.png; sourceTree = "<group>"; };
+		5C5833DA1860185A0066AE3F /* droid@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "droid@2x.png"; sourceTree = "<group>"; };
+		5C5833DD186018620066AE3F /* droid.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = droid.wav; sourceTree = "<group>"; };
+		5C5833E118601A460066AE3F /* applause.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = applause.wav; sourceTree = "<group>"; };
+		5CF6A3C5186170BC00931E7D /* mobile.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mobile.wav; sourceTree = "<group>"; };
+		5CF6A3C8186170C500931E7D /* mobile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mobile@2x.png"; sourceTree = "<group>"; };
+		5CF6A3C9186170C500931E7D /* mobile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mobile.png; sourceTree = "<group>"; };
+		5CF6A3CA186170C500931E7D /* knock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = knock.png; sourceTree = "<group>"; };
+		5CF6A3CB186170C500931E7D /* knock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "knock@2x.png"; sourceTree = "<group>"; };
+		5CF6A3D0186183A800931E7D /* knock.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = knock.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C535AD0185D59AA00B92C82 /* AVFoundation.framework in Frameworks */,
 				5C535A9D185C588000B92C82 /* CoreGraphics.framework in Frameworks */,
 				5C535A9F185C588000B92C82 /* UIKit.framework in Frameworks */,
 				5C535A9B185C588000B92C82 /* Foundation.framework in Frameworks */,
@@ -92,8 +138,8 @@
 		5C535A98185C588000B92C82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5C535A97185C588000B92C82 /* SoundBox.app */,
-				5C535AB8185C588100B92C82 /* SoundBoxTests.xctest */,
+				5C535A97185C588000B92C82 /* Sound Cube.app */,
+				5C535AB8185C588100B92C82 /* Sound CubeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +147,7 @@
 		5C535A99185C588000B92C82 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5C535ACF185D59AA00B92C82 /* AVFoundation.framework */,
 				5C535A9A185C588000B92C82 /* Foundation.framework */,
 				5C535A9C185C588000B92C82 /* CoreGraphics.framework */,
 				5C535A9E185C588000B92C82 /* UIKit.framework */,
@@ -112,6 +159,28 @@
 		5C535AA0185C588000B92C82 /* SoundBox */ = {
 			isa = PBXGroup;
 			children = (
+				5C4F3F0218618C9900D04DF6 /* toilet@2x.png */,
+				5C4F3F0318618C9900D04DF6 /* toilet.png */,
+				5C4F3F0018618BF300D04DF6 /* toilet.wav */,
+				5CF6A3D0186183A800931E7D /* knock.wav */,
+				5CF6A3C8186170C500931E7D /* mobile@2x.png */,
+				5CF6A3C9186170C500931E7D /* mobile.png */,
+				5CF6A3CA186170C500931E7D /* knock.png */,
+				5CF6A3CB186170C500931E7D /* knock@2x.png */,
+				5CF6A3C5186170BC00931E7D /* mobile.wav */,
+				5C5833E118601A460066AE3F /* applause.wav */,
+				5C5833DD186018620066AE3F /* droid.wav */,
+				5C5833D91860185A0066AE3F /* droid.png */,
+				5C5833DA1860185A0066AE3F /* droid@2x.png */,
+				5C4B0F45185EF64B00610BFF /* chicken.wav */,
+				5C4B0F41185EF5F200610BFF /* chicken@2x.png */,
+				5C4B0F42185EF5F200610BFF /* chicken.png */,
+				5C4B0F3F185EF13100610BFF /* scream.wav */,
+				5C4B0F3B185EF10E00610BFF /* scream@2x.png */,
+				5C4B0F3C185EF10E00610BFF /* scream.png */,
+				5C4B0F35185EC60B00610BFF /* applause@2x.png */,
+				5C4B0F36185EC60B00610BFF /* applause.png */,
+				5C535AD7185D6D0200B92C82 /* helsinki.ttf */,
 				5C535AA9185C588000B92C82 /* SBAppDelegate.h */,
 				5C535AAA185C588000B92C82 /* SBAppDelegate.m */,
 				5C535AAC185C588000B92C82 /* Main.storyboard */,
@@ -129,7 +198,7 @@
 				5C535AA2185C588000B92C82 /* SoundBox-Info.plist */,
 				5C535AA3185C588000B92C82 /* InfoPlist.strings */,
 				5C535AA6185C588000B92C82 /* main.m */,
-				5C535AA8185C588000B92C82 /* SoundBox-Prefix.pch */,
+				5C535AA8185C588000B92C82 /* Sound Cube-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -146,7 +215,7 @@
 		5C535AC0185C588100B92C82 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5C535AC1185C588100B92C82 /* SoundBoxTests-Info.plist */,
+				5C535AC1185C588100B92C82 /* Sound CubeTests-Info.plist */,
 				5C535AC2185C588100B92C82 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -155,9 +224,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5C535A96185C588000B92C82 /* SoundBox */ = {
+		5C535A96185C588000B92C82 /* Sound Cube */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C535AC9185C588100B92C82 /* Build configuration list for PBXNativeTarget "SoundBox" */;
+			buildConfigurationList = 5C535AC9185C588100B92C82 /* Build configuration list for PBXNativeTarget "Sound Cube" */;
 			buildPhases = (
 				5C535A93185C588000B92C82 /* Sources */,
 				5C535A94185C588000B92C82 /* Frameworks */,
@@ -167,14 +236,14 @@
 			);
 			dependencies = (
 			);
-			name = SoundBox;
+			name = "Sound Cube";
 			productName = SoundBox;
-			productReference = 5C535A97185C588000B92C82 /* SoundBox.app */;
+			productReference = 5C535A97185C588000B92C82 /* Sound Cube.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5C535AB7185C588100B92C82 /* SoundBoxTests */ = {
+		5C535AB7185C588100B92C82 /* Sound CubeTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5C535ACC185C588100B92C82 /* Build configuration list for PBXNativeTarget "SoundBoxTests" */;
+			buildConfigurationList = 5C535ACC185C588100B92C82 /* Build configuration list for PBXNativeTarget "Sound CubeTests" */;
 			buildPhases = (
 				5C535AB4185C588100B92C82 /* Sources */,
 				5C535AB5185C588100B92C82 /* Frameworks */,
@@ -185,9 +254,9 @@
 			dependencies = (
 				5C535ABE185C588100B92C82 /* PBXTargetDependency */,
 			);
-			name = SoundBoxTests;
+			name = "Sound CubeTests";
 			productName = SoundBoxTests;
-			productReference = 5C535AB8185C588100B92C82 /* SoundBoxTests.xctest */;
+			productReference = 5C535AB8185C588100B92C82 /* Sound CubeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -205,7 +274,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5C535A92185C588000B92C82 /* Build configuration list for PBXProject "SoundBox" */;
+			buildConfigurationList = 5C535A92185C588000B92C82 /* Build configuration list for PBXProject "Sound Cube" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +287,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5C535A96185C588000B92C82 /* SoundBox */,
-				5C535AB7185C588100B92C82 /* SoundBoxTests */,
+				5C535A96185C588000B92C82 /* Sound Cube */,
+				5C535AB7185C588100B92C82 /* Sound CubeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -229,9 +298,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4B0F43185EF5F200610BFF /* chicken@2x.png in Resources */,
+				5C4B0F3E185EF10E00610BFF /* scream.png in Resources */,
+				5C4B0F3D185EF10E00610BFF /* scream@2x.png in Resources */,
 				5C535AB3185C588000B92C82 /* Images.xcassets in Resources */,
+				5CF6A3CC186170C500931E7D /* mobile@2x.png in Resources */,
+				5CF6A3CD186170C500931E7D /* mobile.png in Resources */,
+				5CF6A3CE186170C500931E7D /* knock.png in Resources */,
+				5C4F3F0418618C9900D04DF6 /* toilet@2x.png in Resources */,
+				5C4B0F46185EF64B00610BFF /* chicken.wav in Resources */,
+				5C5833DC1860185A0066AE3F /* droid@2x.png in Resources */,
 				5C535AA5185C588000B92C82 /* InfoPlist.strings in Resources */,
+				5C4B0F44185EF5F200610BFF /* chicken.png in Resources */,
+				5C5833DB1860185A0066AE3F /* droid.png in Resources */,
+				5CF6A3CF186170C500931E7D /* knock@2x.png in Resources */,
+				5CF6A3D1186183A800931E7D /* knock.wav in Resources */,
 				5C535AAE185C588000B92C82 /* Main.storyboard in Resources */,
+				5CF6A3C7186170BC00931E7D /* mobile.wav in Resources */,
+				5C4B0F40185EF13100610BFF /* scream.wav in Resources */,
+				5C4F3F0118618BF300D04DF6 /* toilet.wav in Resources */,
+				5C5833E218601A460066AE3F /* applause.wav in Resources */,
+				5C4B0F38185EC60B00610BFF /* applause.png in Resources */,
+				5C4B0F37185EC60B00610BFF /* applause@2x.png in Resources */,
+				5C4F3F0518618C9900D04DF6 /* toilet.png in Resources */,
+				5C5833DE186018620066AE3F /* droid.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +359,7 @@
 /* Begin PBXTargetDependency section */
 		5C535ABE185C588100B92C82 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5C535A96185C588000B92C82 /* SoundBox */;
+			target = 5C535A96185C588000B92C82 /* Sound Cube */;
 			targetProxy = 5C535ABD185C588100B92C82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -380,9 +470,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SoundBox/SoundBox-Prefix.pch";
+				GCC_PREFIX_HEADER = "SoundBox/Sound Cube-Prefix.pch";
 				INFOPLIST_FILE = "SoundBox/SoundBox-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Cube";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -393,9 +483,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "SoundBox/SoundBox-Prefix.pch";
+				GCC_PREFIX_HEADER = "SoundBox/Sound Cube-Prefix.pch";
 				INFOPLIST_FILE = "SoundBox/SoundBox-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Sound Cube";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -416,8 +506,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "SoundBoxTests/SoundBoxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SoundBoxTests/Sound CubeTests-Info.plist";
+				PRODUCT_NAME = "Sound CubeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -435,8 +525,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SoundBox/SoundBox-Prefix.pch";
-				INFOPLIST_FILE = "SoundBoxTests/SoundBoxTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "SoundBoxTests/Sound CubeTests-Info.plist";
+				PRODUCT_NAME = "Sound CubeTests";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -445,7 +535,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5C535A92185C588000B92C82 /* Build configuration list for PBXProject "SoundBox" */ = {
+		5C535A92185C588000B92C82 /* Build configuration list for PBXProject "Sound Cube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C535AC7185C588100B92C82 /* Debug */,
@@ -454,21 +544,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5C535AC9185C588100B92C82 /* Build configuration list for PBXNativeTarget "SoundBox" */ = {
+		5C535AC9185C588100B92C82 /* Build configuration list for PBXNativeTarget "Sound Cube" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C535ACA185C588100B92C82 /* Debug */,
 				5C535ACB185C588100B92C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		5C535ACC185C588100B92C82 /* Build configuration list for PBXNativeTarget "SoundBoxTests" */ = {
+		5C535ACC185C588100B92C82 /* Build configuration list for PBXNativeTarget "Sound CubeTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5C535ACD185C588100B92C82 /* Debug */,
 				5C535ACE185C588100B92C82 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

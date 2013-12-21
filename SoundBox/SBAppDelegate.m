@@ -7,12 +7,23 @@
 //
 
 #import "SBAppDelegate.h"
+#import "SBCollectionViewController.h"
 
 @implementation SBAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    // Set the window property to have a frame which equals the device size.
+    CGRect viewRect = [[UIScreen mainScreen] bounds];
+    self.window = [[UIWindow alloc] initWithFrame:viewRect];
+    
+    // Initialise the view controller
+    self.viewController = [[SBViewController alloc] init];
+    // Set up a root view controller using the SBViewController
+    self.window.rootViewController = self.viewController;
+
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
